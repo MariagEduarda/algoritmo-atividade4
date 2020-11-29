@@ -1,0 +1,17 @@
+programa {
+	funcao inicio() {
+	    
+	    
+	     real M
+	     real CM
+		
+		
+		escreva("Escreva um valor em metros: ")
+		leia(M)
+
+		CM = M * 100
+
+		escreva("\nSeu número em centímetros é: " , CM ,"cm")
+
+	}
+}
