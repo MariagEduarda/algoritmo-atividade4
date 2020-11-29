@@ -1,0 +1,28 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real nota1
+		real nota2
+		real nota3
+		real nota4
+
+		escreva("n\informe a primeira nota: ")
+		leia(nota1)
+		escreva("n\informe a segunda nota: ")
+		leia(nota2)
+		escreva("n\informe a terceira nota: ")
+		leia(nota3)
+		escreva("n\informe a quarta nota: ")
+		leia(nota4)
+
+		inteiro soma
+		inteiro media 
+
+		soma = nota1 + nota2 + nota3 + nota4
+		media = soma / 4 
+
+		escreva("A sua média é ", media,".")
+	}
+}
