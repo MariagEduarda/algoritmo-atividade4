@@ -1,0 +1,29 @@
+funcao inicio() {   
+	    
+	
+    
+    real peso_de_peixes = 0
+    real excesso = 0
+    
+    
+    escreva("Qual é o peso do peixe que você pescou? \n")
+    leia(peso_de_peixes)
+    
+     excesso = (peso_de_peixes - 50) 
+     
+    se (peso_de_peixes < 50) { 
+        escreva("Parabéns,você pescou o recomendado.")
+    }
+     senao { 
+     escreva("\"Putz,o seu peixe tá acima da média de peso, você vai ter que pagar uma multa de:R$", excesso * 4.5)
+    
+         
+     }
+    
+    
+    escreva("\n\nVisão geral: \nPeso = ", peso_de_peixes, "\nMulta: ", excesso * 4.5)
+    
+    
+    
+	}
+    }
