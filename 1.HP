@@ -1,0 +1,29 @@
+programa
+{
+	inclua biblioteca Matematica
+  
+	funcao inicio() {
+	    
+        
+        
+        real PedraFilosofal, CamaraDosSegredos, PrisioneiroDeAzkaban, CaliceDeFogo, OrdemDaFenix, PrincipeMisterioso
+        
+        PedraFilosofal = 26.90
+        CamaraDosSegredos = 34.10
+         PrisioneiroDeAzkaban = 29.90
+         CaliceDeFogo = 26.90
+         OrdemDaFenix = 50.00
+         PrincipeMisterioso = 26.90
+
+	    real calculo = 0
+	    real soma = PedraFilosofal + CamaraDosSegredos + PrisioneiroDeAzkaban + CaliceDeFogo + OrdemDaFenix + PrincipeMisterioso
+	  
+         calculo = Matematica.arredondar(soma, 2)
+    
+         escreva("O total da compra dos seis livros de Harry Potter será: R$", calculo,0)
+        
+        
+		
+		
+	} 
+}
