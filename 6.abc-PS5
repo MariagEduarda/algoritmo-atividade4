@@ -1,0 +1,30 @@
+programa {
+	
+	inclua biblioteca Matematica
+
+	funcao inicio() {
+	
+    
+    real dinheiroBrasil, dolar, HP, conta
+    
+    dolar = 5.34
+    HP = 50
+    conta = dolar * 1300
+
+    conta = Matematica.arredondar(conta, 3)
+    
+    escreva("Quantos reais você economizou? ")
+    leia(dinheiroBrasil)
+    se (dinheiroBrasil > conta) {
+    	 escreva("Já pode compra um PS5 e ainda sobra  ",dinheiroBrasil - conta)
+    }
+    se (dinheiroBrasil == conta) {
+        escreva("Já dá pra comprar um PS5 mas não vai sobrar")
+    }
+    se (dinheiroBrasil < conta){ 
+    escreva("Falta ", conta - dinheiroBrasil, " reais pra você ter um PS5")
+    }
+	escreva("\nO valor do PS5 dá pra comprar ", conta / HP, " livros do Harry Potter")
+    
+	}
+}
